@@ -42,12 +42,16 @@ The folder structure will be organized topic-wise in the future, for example:
 
 ```text
 Core-Java/
-│── Basics/
-│── OOP/
-│── Arrays/
-│── Strings/
-│── Exception-Handling/
-│── Collections/
-│── Multithreading/
-│── Java8/
-│── Practice-Programs/
+│── .idea
+│── out
+│── src
+    │── Java_Basics/
+    │── OOPs/
+    │── Arrays/
+    │── Strings/
+    │── Exception_Handling/
+    │── Collections/
+    │── Multithreading/
+    │── Java8/
+    │── Practice-Programs/
+│── Core java.iml
