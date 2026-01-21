@@ -29,6 +29,9 @@ public class OptionalClass {
         }else{
             System.out.println("User not found!");
         }
+
+        String myName1=getName(2).orElse("User Not Found!");
+        System.out.println(myName1);
     }
 
     public static Optional<String> getName(int id){
