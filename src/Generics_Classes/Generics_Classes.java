@@ -24,6 +24,19 @@ class Pair<I,S>{
     }
 }
 
+//Generics with private variables
+class Name<N>{
+    private N name;
+
+   public N getName(){
+       return this.name;
+   }
+
+   public void setName(N name){
+       this.name=name;
+   }
+}
+
 public class Generics_Classes {
     public static void main(String[] args){
 
@@ -32,5 +45,10 @@ public class Generics_Classes {
 
         Pair<Integer,String> pair=new Pair<Integer, String>(1,"Dipak");
         pair.show();
+
+        //Generics with private
+        Name name=new Name();
+        name.setName("Diapk Mundhe");
+        System.out.println(name.getName());
     }
 }
